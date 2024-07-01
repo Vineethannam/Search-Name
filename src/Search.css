@@ -1,0 +1,26 @@
+input{
+    border: none;
+    outline: none;
+    background-color: #eee;
+    padding: 1rem;
+    border-radius: 0.7rem;
+}
+.search{
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+}
+.results{
+    width: 100%;
+    background-color: #f1f0f0;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    margin-top: 1rem;
+}
+.results > div{
+    padding: 0.4rem;
+    border-bottom: 0.5px solid #000;
+}
